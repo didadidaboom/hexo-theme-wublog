@@ -1,0 +1,102 @@
+
+# Code Highlight theme
+# Available value:
+#    normal | night | night yilia | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+# night yilia - https://github.com/litten/hexo-theme-yilia
+highlight_theme: normal
+
+# Site settings
+SEOTitle: Chong的博客 | Chong's Blog
+header-img: img/home-bg.jpg
+email: chong.wu.sg@outlook.com
+description: ""
+keyword: ""
+
+#main menu navigation
+menu:
+  Home: /
+  About: about/
+  Archives: archives/
+#   Timelines: archives
+  Tags: tags/
+  Contact: contact/
+
+# SNS settings
+# RSS: false
+weibo_username:
+zhihu_username:
+github_username:    didadidaboom
+twitter_username:
+facebook_username:
+linkedin_username:
+wechat_username: true
+email_username: true
+dockerhub_username: didadidaboom
+
+
+# Build settings
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+# Disqus settings
+disqus_username:
+
+# Duoshuo settings
+# duoshuo_username: kaijun
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+# Gitment  site: https://github.com/imsun/gitment/
+gitment:
+    enable: true
+    id: ''
+    owner: didadidaboom
+    repo: blog
+    client_id: '0fa2344649c866646aa8'
+    client_secret: 'fe21d28bf8881a122e652d9980199d43a5ff9464'
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "个人可以定义世界吗？"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+# Friends
+# friends: [
+#     {
+#         title: "Kaijun's Blog",
+#         href: "http://blog.kaijun.rocks"
+#     },{
+#         title: "Hux Blog",
+#         href: "http://huangxuan.me"
+#     },{
+#         title: "Foo",
+#         href: "#"
+#     },{
+#         title: "Bar",
+#         href: "#"
+#     },{
+#         title: "Example Friends",
+#         href: "#"
+#     },{
+#         title: "It helps SEO",
+#         href: "#"
+#     }
+# ]
+
+
+#Custom Setting End
