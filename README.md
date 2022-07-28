@@ -22,3 +22,27 @@
   
 
 + modify
+
+  modify the deploy part of `_config.yml` file under your blog
+
+  ```
+  deploy:
+    type: git
+    repo: git@github.com:didadidaboom/blog.git
+    branch: gh-pages
+  ```
+
++ writting/server/deploy
+
+  ```shell
+  # write post
+  hexo new post <new-post-name>
+  # clean 
+  npm run clean
+  # build static file
+  npm run build
+  # run blog on local
+  npm run server
+  # deply blog to remote server
+  npm run deploy
+  ```
